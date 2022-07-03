@@ -1,70 +1,35 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Command
 
-## Available Scripts
+### Run
 
-In the project directory, you can run:
+```
+npm start
+```
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+로컬에서 실행합니다. [http://localhost:3000](http://localhost:3000) 에서 확인할 수 있습니다.
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
+npm run deploy
+```
+github.io 에 배포합니다. `package.json`의 `homepage`와 github repo name을 동일하게 설정해야 합니다.
 
-### `npm run build` fails to minify
+## How to Post
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. `src/assets/posts` 에 폴더 또는 파일을 생성합니다.
+  - 파일은 반드시 markdown 형식이어야 합니다.
+  - 파일, 폴더 명의 띄어쓰기 없이 작성해야 합니다. 띄어쓰기 대신 `-` 를 사용할 수 있습니다.
+  - 폴더를 생성한 경우, 폴더 안에 `README.md` 를 생성합니다. 여기엔 해당 폴더의 간단한 설명을 작성할 수 있습니다.
+2. `src/assets/posts/info.js` 에 내용을 추가합니다.
+  - 폴더를 추가한 경우, `postInfo`의 `key`를 생성한 폴더명과 동일하게 추가합니다.
+  - 폴더(key)의 `value` 는 post List 로 파일 설명을 추가합니다.
+  - 예시를 보고 동일한 규칙으로 생성합니다.
+3. `npm run deploy` 로 배포합니다.
+
+## todo
+- toc 지원
+- 이미지 경로 설정, 이미지 랜더 지원
+- 포스트 내부에서 이전글, 다음글 지원
