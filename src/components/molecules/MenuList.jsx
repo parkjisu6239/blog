@@ -1,8 +1,8 @@
-import { css } from "@emotion/css"
-import { NavLink } from "react-router-dom"
+import { css } from "@emotion/css";
+import { NavLink } from "react-router-dom";
 
-import { basicColor } from "styles/color"
-import { postInfo } from "assets/posts/info"
+import { basicColor } from "styles/color";
+import { postInfo } from "assets/posts/info";
 
 const menusCss = css`
   display: flex;
@@ -21,31 +21,36 @@ const menusCss = css`
       margin-left: 5px;
     }
   }
-`
+`;
 
 const MenuList = () => {
-  let activeStyle = {
+  const activeStyle = {
     color: "black",
     borderLeft: `2px solid ${basicColor.gray9}`,
     paddingLeft: "7px",
     marginLeft: "5px",
   };
-  
+
   return (
     <section>
       <ul className={menusCss}>
-        {Object.keys(postInfo).map((category, idx) => (
-          <li key={idx}>
-            <NavLink 
-              to={`/post/${category}`}
-              style={({ isActive }) => isActive ? activeStyle : undefined}>
-              {category.replace('-', " ")}
-            </NavLink>
-          </li>
-        ))}
+        {Object.keys(postInfo).map((category, idx) => {
+          return (
+            <li key={idx}>
+              <NavLink
+                to={`/post/${category}`}
+                style={({ isActive }) => {
+                  return isActive ? activeStyle : undefined;
+                }}
+              >
+                {category.replace("-", " ")}
+              </NavLink>
+            </li>
+          );
+        })}
       </ul>
     </section>
-  )
-}
+  );
+};
 
-export default MenuList
+export default MenuList;

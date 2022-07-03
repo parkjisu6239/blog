@@ -28,6 +28,18 @@ github.io 에 배포합니다. `package.json`의 `homepage`와 github repo name�
   - 예시를 보고 동일한 규칙으로 생성합니다.
 3. `npm run deploy` 로 배포합니다.
 
+## eslint
+- `npm i eslint` 로 eslint 설치
+- `npx eslint --init` 으로 eslint.json 생성
+- pakage.json의 devDependence 참고하여 플러그인 추가 설치
+- vscode setting > code action on save > Edit in setting.json 에 아래 설정 추가
+```json
+"editor.codeActionsOnSave": {
+    "source.fixAll": true,
+},
+"editor.formatOnSave": false,
+```
+
 ## todo
 - toc 지원
 - 이미지 경로 설정, 이미지 랜더 지원

@@ -7,5 +7,5 @@ export const basicColor = {
   gray7: "#666",
   gray9: "#333",
   theme1: "rgb(168, 223, 214)",
-  link: "#0969da"
-}
+  link: "#0969da",
+};

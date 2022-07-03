@@ -1,0 +1,62 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "airbnb",
+        "eslint-config-prettier",
+        "plugin:prettier/recommended"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "react-hooks"
+    ],
+    "rules": {
+        // General
+        "no-console": "error",
+        "comma-dangle": "off",
+        "max-len": ["warn", { "code": 80 }],
+        "arrow-body-style": ["error", "always"],
+        "quotes": ["error", "double", { "allowTemplateLiterals": true }],
+        "import/no-dynamic-require": "off",
+        "global-require": "off",
+        "no-restricted-exports": "off",
+        "jsx-a11y/click-events-have-key-events": "off",
+        "jsx-a11y/no-static-element-interactions": "off",
+        "import/prefer-default-export": "off",
+
+        // React
+        "react/jsx-boolean-value": "warn",
+        "react/jsx-curly-brace-presence": "warn",
+        "react/jsx-fragments": "warn",
+        "react/jsx-no-useless-fragment": "warn",
+        "react/jsx-uses-react": "off",
+        "react/prefer-stateless-function": "warn",
+        "react/prop-types": "off",
+        "react/jsx-props-no-spreading": "off",
+        "react/require-default-props": "off",
+        "react/react-in-jsx-scope": "off",
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
+        "react/destructuring-assignment": "off",
+        "react/function-component-definition": "off",
+        "react/no-array-index-key": "off"
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+            "paths": ["src"]
+            }
+        }
+    }
+}

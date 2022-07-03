@@ -1,8 +1,8 @@
-import { css } from "@emotion/css"
-import { BiArrowToTop } from "react-icons/bi"
+import { css } from "@emotion/css";
+import { BiArrowToTop } from "react-icons/bi";
 
-import { basicColor } from "styles/color"
-import { mobile } from "styles/view"
+import { basicColor } from "styles/color";
+import { mobile } from "styles/view";
 
 const goTopCSs = css`
   display: flex;
@@ -26,21 +26,21 @@ const goTopCSs = css`
     bottom: 15px;
     right: 20px;
   }
-`
+`;
 
 const GoTop = () => {
   const onClick = () => {
-    window.scrollTo({
+    document.querySelector("#post-wrapper").scrollTo({
       top: 0,
-      behavior: "smooth"
+      behavior: "smooth",
     });
-  }
+  };
 
   return (
     <div className={goTopCSs} onClick={onClick}>
-      <BiArrowToTop size={20}/>
+      <BiArrowToTop size={20} />
     </div>
-  )
-}
+  );
+};
 
-export default GoTop
+export default GoTop;

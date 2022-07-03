@@ -1,14 +1,14 @@
-import { css } from "@emotion/css"
-import { Link } from "react-router-dom"
+import { css } from "@emotion/css";
+import { Link } from "react-router-dom";
 
-import { basicColor } from "styles/color"
-import { mobile } from "styles/view"
+import { basicColor } from "styles/color";
+import { mobile } from "styles/view";
 
 const thumbnailCss = css`
   display: grid;
   gap: 10px;
   padding: 15px;
-  border: 1px solid ${basicColor.gray2};  
+  border: 1px solid ${basicColor.gray2};
   border-radius: 5px;
   text-decoration: none;
   span {
@@ -18,7 +18,7 @@ const thumbnailCss = css`
   :hover {
     border-left: 20px solid ${basicColor.theme1};
   }
-`
+`;
 
 const headerCss = css`
   display: flex;
@@ -38,9 +38,9 @@ const headerCss = css`
       font-size: x-small;
     }
   }
-`
+`;
 
-const PostThumbnail = ({category, post}) => {
+const PostThumbnail = ({ category, post }) => {
   return (
     <Link className={thumbnailCss} to={`/post/${category}/${post.fileName}`}>
       <div className={headerCss}>
@@ -49,7 +49,7 @@ const PostThumbnail = ({category, post}) => {
       </div>
       <span>{post.desc}</span>
     </Link>
-  )
-}
+  );
+};
 
-export default PostThumbnail
+export default PostThumbnail;

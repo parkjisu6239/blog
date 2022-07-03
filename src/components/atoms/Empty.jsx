@@ -1,7 +1,7 @@
-import { css } from "@emotion/css"
-import { ImFileEmpty } from "react-icons/im"
+import { css } from "@emotion/css";
+import { ImFileEmpty } from "react-icons/im";
 
-import { basicColor } from "styles/color"
+import { basicColor } from "styles/color";
 
 const emptyCss = css`
   display: flex;
@@ -15,15 +15,15 @@ const emptyCss = css`
   span {
     color: ${basicColor.gray7};
   }
-`
+`;
 
-const Empty  = () => {
+const Empty = () => {
   return (
     <div className={emptyCss}>
-      <ImFileEmpty size={30}/>
+      <ImFileEmpty size={30} />
       <span>There are no posts</span>
     </div>
-  )
-} 
+  );
+};
 
-export default Empty
+export default Empty;

@@ -1,11 +1,11 @@
-import { css } from "@emotion/css"
+import { css } from "@emotion/css";
 
-import { basicColor } from "styles/color"
+import { basicColor } from "styles/color";
 
-import Footer from "components/atoms/Footer"
-import Header from "components/atoms/Header"
-import MenuList from "components/molecules/MenuList"
-import { mobile } from "styles/view"
+import Footer from "components/atoms/Footer";
+import Header from "components/atoms/Header";
+import MenuList from "components/molecules/MenuList";
+import { mobile } from "styles/view";
 
 const asideCss = css`
   background-color: ${basicColor.gray0};
@@ -26,16 +26,16 @@ const asideCss = css`
   ${mobile} {
     display: none;
   }
-`
+`;
 
 const Aside = () => {
   return (
     <aside className={asideCss}>
-      <Header/>
-      <MenuList/>
-      <Footer/>
+      <Header />
+      <MenuList />
+      <Footer />
     </aside>
-  )
-}
+  );
+};
 
-export default Aside
+export default Aside;
