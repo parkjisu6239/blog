@@ -17,6 +17,10 @@ const postCss = css`
   }
 `;
 
+const thumbnailImg = css`
+  width: 100%;
+`
+
 const Post = () => {
   const param = useParams();
   const { category } = param;
@@ -45,7 +49,9 @@ const Post = () => {
 
   return (
     <article className={postCss}>
-      <Markdown mdPath={mdPath} />
+      {!category && 
+        <img src="thumbnail.png" alt="thumbnail" className={thumbnailImg}/>}
+      <Markdown mdPath={mdPath}/>
       <GoTop />
     </article>
   );

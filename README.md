@@ -40,6 +40,11 @@ github.io 에 배포합니다. `package.json`의 `homepage`와 github repo name�
 "editor.formatOnSave": false,
 ```
 
+## 참고한 글
+- [Adding dynamic meta tags to a React app without SSR
+](https://blog.logrocket.com/adding-dynamic-meta-tags-react-app-without-ssr/)
+
+
 ## todo
 - toc 지원
 - 이미지 경로 설정, 이미지 랜더 지원

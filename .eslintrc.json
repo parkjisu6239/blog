@@ -19,14 +19,16 @@
     },
     "plugins": [
         "react",
-        "react-hooks"
+        "react-hooks",
+        "prettier"
     ],
     "rules": {
         // General
-        "no-console": "error",
+        "prettier/prettier": "off",
+        "no-console": "off",
         "comma-dangle": "off",
         "max-len": ["warn", { "code": 80 }],
-        "arrow-body-style": ["error", "always"],
+        "arrow-body-style": "off",
         "quotes": ["error", "double", { "allowTemplateLiterals": true }],
         "import/no-dynamic-require": "off",
         "global-require": "off",
@@ -34,6 +36,9 @@
         "jsx-a11y/click-events-have-key-events": "off",
         "jsx-a11y/no-static-element-interactions": "off",
         "import/prefer-default-export": "off",
+        "import/no-unresolved": "off",
+        "import/no-absolute-path": "off",
+        "no-else-return": "off",
 
         // React
         "react/jsx-boolean-value": "warn",
@@ -46,8 +51,8 @@
         "react/jsx-props-no-spreading": "off",
         "react/require-default-props": "off",
         "react/react-in-jsx-scope": "off",
-        "react-hooks/rules-of-hooks": "error",
-        "react-hooks/exhaustive-deps": "warn",
+        "react-hooks/rules-of-hooks": "off",
+        "react-hooks/exhaustive-deps": "off",
         "react/destructuring-assignment": "off",
         "react/function-component-definition": "off",
         "react/no-array-index-key": "off"
