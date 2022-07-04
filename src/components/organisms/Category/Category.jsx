@@ -75,12 +75,19 @@ const Category = () => {
 
   try {
     if (category === "All") {
-      posts = Object.values(postInfo).reduce(
-        (prev, cur) => [...prev, ...cur],
-        []
-      )
-      posts.sort((a, b) => new Date(a.createdAt) - new Date(b.createdAt))
-      pagePerPost = 7
+      posts = Object.keys(postInfo)
+        .map((categoryKey) =>
+          postInfo[categoryKey].map((post) => {
+            return {
+              category: categoryKey,
+              ...post,
+            };
+          })
+        )
+        .reduce((prev, cur) => [...prev, ...cur], []);
+      posts.sort((a, b) => new Date(a.createdAt) - new Date(b.createdAt));
+      pagePerPost = 7;
+      console.log(posts);
     } else {
       mdPath = require(`assets/posts/${category}/README.md`);
     }
@@ -91,16 +98,25 @@ const Category = () => {
   return (
     <article className={categoryCss}>
       <h1 className={titleCss}>{category.replace("-", " ")}</h1>
-      {mdPath && <section className={categoryDecsCss}>
-        <MarkDown mdPath={mdPath} />
-      </section>}
+      {mdPath && (
+        <section className={categoryDecsCss}>
+          <MarkDown mdPath={mdPath} />
+        </section>
+      )}
       <section className={postListWrapperCss}>
         <span className={postCountCss}>{posts.length} posts</span>
         <div className={postListCss}>
-          {posts.slice((page - 1) * pagePerPost, page * pagePerPost).map(
-            (post, idx) => {
-            return <PostThumbnail category={category} post={post} key={idx} />;
-          })}
+          {posts
+            .slice((page - 1) * pagePerPost, page * pagePerPost)
+            .map((post, idx) => {
+              return (
+                <PostThumbnail
+                  category={post.category ?? category}
+                  post={post}
+                  key={idx}
+                />
+              );
+            })}
         </div>
         <Pagination
           count={Math.ceil(posts.length / pagePerPost)}
