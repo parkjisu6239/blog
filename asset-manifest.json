@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/blog/static/css/main.02f38b43.css",
-    "main.js": "/blog/static/js/main.338e31e1.js",
+    "main.js": "/blog/static/js/main.e3030cce.js",
     "static/media/KakaoTalk_20210827_140856507_02.jpg": "/blog/static/media/KakaoTalk_20210827_140856507_02.7f10546a35b7d8e8755d.jpg",
+    "index.html": "/blog/index.html",
     "static/media/README.md": "/blog/static/media/README.79549ca8a9d97a152736.md",
     "static/media/learn-js.md": "/blog/static/media/learn-js.a2516d26f5c8496e2c7b.md",
     "static/media/learn-js2.md": "/blog/static/media/learn-js2.a2516d26f5c8496e2c7b.md",
     "static/media/learn-ts.md": "/blog/static/media/learn-ts.eb60d29ce3f2b62baff6.md",
-    "index.html": "/blog/index.html",
     "main.02f38b43.css.map": "/blog/static/css/main.02f38b43.css.map",
-    "main.338e31e1.js.map": "/blog/static/js/main.338e31e1.js.map"
+    "main.e3030cce.js.map": "/blog/static/js/main.e3030cce.js.map"
   },
   "entrypoints": [
     "static/css/main.02f38b43.css",
-    "static/js/main.338e31e1.js"
+    "static/js/main.e3030cce.js"
   ]
 }
