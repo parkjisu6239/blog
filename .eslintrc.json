@@ -24,7 +24,6 @@
     ],
     "rules": {
         // General
-        "prettier/prettier": "off",
         "no-console": "off",
         "comma-dangle": "off",
         "max-len": ["warn", { "code": 80 }],

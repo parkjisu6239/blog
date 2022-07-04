@@ -14,6 +14,8 @@
 >
 > 이것은 설명입니다.
 
+![Apple definition and meaning | Collins English Dictionary](learn-js.assets/apple_158989157.jpg)
+
 `이것은` 설명입니다.
 
 ~이것은 설명입니다.~
