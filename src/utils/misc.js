@@ -1,5 +1,6 @@
+/* eslint-disable prettier/prettier */
 import { postInfo } from "assets/posts/info";
-import { og } from "constans/main"
+import { og } from "constans/main";
 
 export const isFileinCategory = (category, file) => {
   if (
