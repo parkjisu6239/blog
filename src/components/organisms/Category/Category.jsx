@@ -60,9 +60,10 @@ const postListCss = css`
 
 const Category = () => {
   const { category } = useParams();
-  const posts = postInfo[category].reverse();
-  let mdPath;
+  let pagePerPost = 5;
+  let posts = postInfo[category].reverse();
   const [page, setPage] = useState(1);
+  let mdPath;
 
   if (posts == null) {
     return <Empty />;
@@ -73,7 +74,16 @@ const Category = () => {
   };
 
   try {
-    mdPath = require(`assets/posts/${category}/README.md`);
+    if (category === "All") {
+      posts = Object.values(postInfo).reduce(
+        (prev, cur) => [...prev, ...cur],
+        []
+      )
+      posts.sort((a, b) => new Date(a.createdAt) - new Date(b.createdAt))
+      pagePerPost = 7
+    } else {
+      mdPath = require(`assets/posts/${category}/README.md`);
+    }
   } catch {
     return <Empty />;
   }
@@ -81,18 +91,19 @@ const Category = () => {
   return (
     <article className={categoryCss}>
       <h1 className={titleCss}>{category.replace("-", " ")}</h1>
-      <section className={categoryDecsCss}>
+      {mdPath && <section className={categoryDecsCss}>
         <MarkDown mdPath={mdPath} />
-      </section>
+      </section>}
       <section className={postListWrapperCss}>
         <span className={postCountCss}>{posts.length} posts</span>
         <div className={postListCss}>
-          {posts.slice((page - 1) * 5, page * 5).map((post, idx) => {
+          {posts.slice((page - 1) * pagePerPost, page * pagePerPost).map(
+            (post, idx) => {
             return <PostThumbnail category={category} post={post} key={idx} />;
           })}
         </div>
         <Pagination
-          count={Math.ceil(posts.length / 5)}
+          count={Math.ceil(posts.length / pagePerPost)}
           page={page}
           onChange={changePage}
           shape="rounded"

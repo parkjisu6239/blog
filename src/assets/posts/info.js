@@ -1,4 +1,5 @@
 export const postInfo = {
+  All: [],
   JavaScript: [
     {
       createdAt: "2022-07-03",
@@ -13,7 +14,7 @@ export const postInfo = {
       desc: "js를 배워봅시다22222.",
     },
     {
-      createdAt: "2022-07-03",
+      createdAt: "2022-07-01",
       fileName: "learn-js.md",
       title: "자스를 배워보자 Object vs Map",
       desc: "js를 배워봅시다.",
@@ -55,13 +56,13 @@ export const postInfo = {
       desc: "js를 배워봅시다.",
     },
     {
-      createdAt: "2022-07-02",
+      createdAt: "2022-06-02",
       fileName: "learn-js2.md",
       title: "자스를 배워보자 Object vs Map2222",
       desc: "js를 배워봅시다22222.",
     },
     {
-      createdAt: "2022-07-03",
+      createdAt: "2021-07-03",
       fileName: "learn-js.md",
       title: "자스를 배워보자 Object vs Map",
       desc: "js를 배워봅시다.",
@@ -73,7 +74,7 @@ export const postInfo = {
       desc: "js를 배워봅시다22222.",
     },
     {
-      createdAt: "2022-07-03",
+      createdAt: "2022-03-03",
       fileName: "learn-js.md",
       title: "자스를 배워보자 Object vs Map",
       desc: "js를 배워봅시다.",
