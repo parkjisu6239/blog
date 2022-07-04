@@ -47,6 +47,10 @@ const markDownCss = css`
     font-size: 1.3rem;
   }
 
+  img {
+    width: 50%;
+  }
+
   ul,
   ol {
     padding-left: 20px;
@@ -101,7 +105,8 @@ const CodeBlock = {
   },
 };
 
-const MarkDown = ({ mdPath }) => {
+const MarkDown = ({ mdPath, category }) => {
+  const categoryPath = category ? `/${category}` : "";
   const [md, setMd] = useState("");
 
   useEffect(() => {
@@ -121,6 +126,11 @@ const MarkDown = ({ mdPath }) => {
         remarkPlugins={[remarkGfm, remarkMath]}
         rehypePlugins={[rehypeRaw, rehypeKatex]}
         components={CodeBlock}
+        transformImageUri={(uri) =>
+          uri.startsWith("http")
+            ? uri
+            : require(`assets/posts${categoryPath}/${uri}`)
+        }
       >
         {md}
       </ReactMarkdown>

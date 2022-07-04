@@ -4,7 +4,7 @@ import { css } from "@emotion/css";
 
 import { mobile } from "styles/view";
 import { postInfo } from "assets/posts/info";
-import { setMetaTags } from "utils/misc"
+import { setMetaTags } from "utils/misc";
 
 import Markdown from "components/atoms/Markdown";
 import Empty from "components/atoms/Empty";
@@ -19,7 +19,7 @@ const postCss = css`
 
 const thumbnailImg = css`
   width: 100%;
-`
+`;
 
 const Post = () => {
   const param = useParams();
@@ -33,25 +33,26 @@ const Post = () => {
       mdPath = require("assets/posts/README.md");
     } else {
       mdPath = require(`assets/posts/${category}/${fileName}`);
-      curPost = postInfo[category].find(post => post.fileName === fileName)
+      curPost = postInfo[category].find((post) => post.fileName === fileName);
     }
   } catch {
     return <Empty />;
   }
 
   useEffect(() => {
-    if (!curPost) return
+    if (!curPost) return;
     setMetaTags({
       title: curPost.title,
       description: curPost.desc,
-    })
-  }, [curPost])
+    });
+  }, [curPost]);
 
   return (
     <article className={postCss}>
-      {!category && 
-        <img src="thumbnail.png" alt="thumbnail" className={thumbnailImg}/>}
-      <Markdown mdPath={mdPath}/>
+      {!category && (
+        <img src="thumbnail.png" alt="thumbnail" className={thumbnailImg} />
+      )}
+      <Markdown mdPath={mdPath} category={category} />
       <GoTop />
     </article>
   );
