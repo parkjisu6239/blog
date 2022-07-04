@@ -30,7 +30,13 @@ const goTopCSs = css`
 
 const GoTop = () => {
   const onClick = () => {
+    // Desktop
     document.querySelector("#post-wrapper").scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+    // Mobile
+    window.scrollTo({
       top: 0,
       behavior: "smooth",
     });
