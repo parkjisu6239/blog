@@ -47,4 +47,3 @@ github.io 에 배포합니다. `package.json`의 `homepage`와 github repo name�
 
 ## todo
 - toc 지원
-- 포스트 내부에서 이전글, 다음글 지원
