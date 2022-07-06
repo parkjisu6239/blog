@@ -8,4 +8,5 @@ export const basicColor = {
   gray9: "#333",
   theme1: "rgb(168, 223, 214)",
   link: "#0969da",
+  tomato: "#eb5757",
 };

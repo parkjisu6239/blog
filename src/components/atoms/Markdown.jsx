@@ -36,15 +36,50 @@ const markDownCss = css`
 
   a {
     color: ${basicColor.link};
+    :hover {
+      text-decoration: underline;
+    }
   }
 
   h1 {
-    padding-bottom: 3px;
+    font-size: 32px;
+    margin-bottom: 25px;
     border-bottom: 1px solid ${basicColor.gray2};
   }
 
   h2 {
-    font-size: 1.3rem;
+    font-size: 24px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+    padding-bottom: 5px;
+    border-bottom: 1px solid ${basicColor.gray2};
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  h6 {
+    font-size: 14px;
+  }
+
+  h4,
+  h5,
+  h6 {
+    margin-top: 20px;
+    margin-bottom: 5px;
   }
 
   img {
@@ -58,6 +93,14 @@ const markDownCss = css`
 
   pre {
     margin: 20px 0;
+  }
+
+  :not(pre) code {
+    background-color: ${basicColor.gray1};
+    border-radius: 5px;
+    padding: 2px 4px;
+    color: ${basicColor.tomato};
+    margin: 0;
   }
 
   table {

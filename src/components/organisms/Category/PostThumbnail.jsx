@@ -27,7 +27,7 @@ const headerCss = css`
   gap: 10px;
   h2 {
     font-size: large;
-    color: #2c2c2c;
+    color: ${basicColor.gray9};
     text-decoration: none;
     font-weight: bold;
   }
