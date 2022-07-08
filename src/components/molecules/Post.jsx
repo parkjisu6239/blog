@@ -78,26 +78,28 @@ const Post = () => {
 
   return (
     <article className={postCss}>
-      {!category && (
+      <If condition={!category}>
         <img src="thumbnail.png" alt="thumbnail" className={thumbnailImg} />
-      )}
+      </If>
       <Markdown mdPath={mdPath} category={category} />
-      <section className={postNavigatorWrapperCss(idx)}>
-        <If condition={idx > 0}>
-          <PostNavigator
-            type="prev"
-            category={category}
-            post={postInfo[category][idx - 1]}
-          />
-        </If>
-        <If condition={idx < allPostCount - 1}>
-          <PostNavigator
-            type="next"
-            category={category}
-            post={postInfo[category][idx + 1]}
-          />
-        </If>
-      </section>
+      <If condition={allPostCount > 1}>
+        <section className={postNavigatorWrapperCss(idx)}>
+          <If condition={idx > 0}>
+            <PostNavigator
+              type="prev"
+              category={category}
+              post={postInfo[category]?.[idx - 1]}
+            />
+          </If>
+          <If condition={idx < allPostCount - 1}>
+            <PostNavigator
+              type="next"
+              category={category}
+              post={postInfo[category]?.[idx + 1]}
+            />
+          </If>
+        </section>
+      </If>
       <GoTop />
     </article>
   );
