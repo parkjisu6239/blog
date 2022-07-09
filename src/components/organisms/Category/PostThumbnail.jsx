@@ -16,7 +16,7 @@ const thumbnailCss = css`
     color: ${basicColor.gray5};
   }
   :hover {
-    border-left: 20px solid ${basicColor.theme1};
+    border-left: 20px solid ${basicColor.gray7};
   }
 `;
 

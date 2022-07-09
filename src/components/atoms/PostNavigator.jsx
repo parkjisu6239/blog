@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 import { basicColor } from "styles/color";
 import { mobile, smallMobile } from "styles/view";
+import { postTrans } from "constans/main";
 
 const navigatorCss = (isNext) => css`
   display: flex;
   padding: 20px;
-  justify-content: space-between;
   gap: 20px;
   align-items: center;
   flex-direction: ${isNext ? "row-reverse" : "row"};
@@ -33,9 +33,14 @@ const navigatorCss = (isNext) => css`
       left: ${isNext ? "10px" : "-10px"};
     }
   }
+  ${smallMobile} {
+    padding: 15px;
+    gap: 10px;
+  }
 `;
 
-const postCss = css`
+const postCss = (type) => css`
+  text-align: ${type === "prev" ? "start" : "end"};
   display: grid;
   gap: 5px;
 `;
@@ -60,10 +65,9 @@ const PostNavigator = ({ type, category, post }) => {
       className={navigatorCss(type === "next")}
     >
       <IoIosArrowBack size={30} />
-      <div className={postCss}>
+      <div className={postCss(type)}>
+        <small>{postTrans[type]}</small>
         <h4 className={ellipsisCss}>{post.title}</h4>
-        <small>{post.createdAt}</small>
-        <small className={ellipsisCss}>{post.desc}</small>
       </div>
     </Link>
   );

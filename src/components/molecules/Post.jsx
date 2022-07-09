@@ -14,7 +14,6 @@ import If from "components/atoms/If";
 import PostNavigator from "components/atoms/PostNavigator";
 
 const postCss = css`
-  display: grid;
   padding: 30px 0;
   ${mobile} {
     padding-top: 0;
@@ -25,21 +24,35 @@ const thumbnailImg = css`
   width: 100%;
 `;
 
-const postNavigatorWrapperCss = (idx) => css`
-  margin-top: 40px;
+const postNavigatorSection = css`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border-top: 1px solid ${basicColor.gray2};
-  padding: 50px;
+  gap: 30px;
+  margin-top: 40px;
+  padding: 30px;
+  ${mobile} {
+    gap: 10px;
+    margin-top: 20px;
+    padding: 20px;
+  }
+`;
+
+const navigatorDecsCss = css`
+  font-size: smaller;
+  color: ${basicColor.gray5};
+`;
+
+const postNavigatorWrapperCss = (idx) => css`
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
+  width: 100%;
   gap: 10px;
-  ${mobile} {
-    padding: 40px;
-  }
   ${smallMobile} {
-    padding: 40px 10px;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    gap: 10px;
   }
   a {
     grid-column-start: ${idx === 0 && "none"};
@@ -83,21 +96,26 @@ const Post = () => {
       </If>
       <Markdown mdPath={mdPath} category={category} />
       <If condition={allPostCount > 1}>
-        <section className={postNavigatorWrapperCss(idx)}>
-          <If condition={idx > 0}>
-            <PostNavigator
-              type="prev"
-              category={category}
-              post={postInfo[category]?.[idx - 1]}
-            />
-          </If>
-          <If condition={idx < allPostCount - 1}>
-            <PostNavigator
-              type="next"
-              category={category}
-              post={postInfo[category]?.[idx + 1]}
-            />
-          </If>
+        <section className={postNavigatorSection}>
+          <span className={navigatorDecsCss}>
+            ⬇ {category} 카테고리의 또 다른 글 ⬇
+          </span>
+          <div className={postNavigatorWrapperCss(idx)}>
+            <If condition={idx > 0}>
+              <PostNavigator
+                type="prev"
+                category={category}
+                post={postInfo[category]?.[idx - 1]}
+              />
+            </If>
+            <If condition={idx < allPostCount - 1}>
+              <PostNavigator
+                type="next"
+                category={category}
+                post={postInfo[category]?.[idx + 1]}
+              />
+            </If>
+          </div>
         </section>
       </If>
       <GoTop />
