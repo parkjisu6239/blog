@@ -85,7 +85,7 @@ const Category = () => {
           })
         )
         .reduce((prev, cur) => [...prev, ...cur], []);
-      posts.sort((a, b) => new Date(a.createdAt) - new Date(b.createdAt));
+      posts.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
       pagePerPost = 7;
     } else {
       mdPath = require(`assets/posts/${category}/README.md`);
