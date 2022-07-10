@@ -44,18 +44,18 @@ const navigatorDecsCss = css`
   color: ${basicColor.gray5};
 `;
 
-const postNavigatorWrapperCss = (idx) => css`
+const postNavigatorWrapperCss = (isFirst, isLast) => css`
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
-  width: 100%;
+  width: ${(isFirst || isLast) && "100%"};
   gap: 10px;
   ${smallMobile} {
     grid-template-columns: 1fr;
     gap: 10px;
   }
   a {
-    grid-column-start: ${idx === 0 && "none"};
+    grid-column-start: ${isFirst && "none"};
   }
 `;
 
@@ -100,7 +100,12 @@ const Post = () => {
           <span className={navigatorDecsCss}>
             ⬇ {category} 카테고리의 또 다른 글 ⬇
           </span>
-          <div className={postNavigatorWrapperCss(idx)}>
+          <div
+            className={postNavigatorWrapperCss(
+              idx === 0,
+              idx === allPostCount - 1
+            )}
+          >
             <If condition={idx > 0}>
               <PostNavigator
                 type="prev"

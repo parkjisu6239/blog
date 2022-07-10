@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { IoIosArrowBack } from "react-icons/io";
 import { css } from "@emotion/css";
 import { Link } from "react-router-dom";
@@ -5,6 +6,7 @@ import { Link } from "react-router-dom";
 import { basicColor } from "styles/color";
 import { mobile, smallMobile } from "styles/view";
 import { postTrans } from "constans/main";
+import { postType } from "constans/types";
 
 const navigatorCss = (isNext) => css`
   display: flex;
@@ -46,7 +48,6 @@ const postCss = (type) => css`
 `;
 
 const ellipsisCss = css`
-  width: 20vw;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -71,6 +72,12 @@ const PostNavigator = ({ type, category, post }) => {
       </div>
     </Link>
   );
+};
+
+PostNavigator.propTypes = {
+  type: PropTypes.string,
+  category: PropTypes.string,
+  post: PropTypes.shape(postType),
 };
 
 export default PostNavigator;

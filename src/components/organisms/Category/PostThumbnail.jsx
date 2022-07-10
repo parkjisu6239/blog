@@ -1,8 +1,10 @@
+import PropTypes from "prop-types";
 import { css } from "@emotion/css";
 import { Link } from "react-router-dom";
 
 import { basicColor } from "styles/color";
 import { mobile } from "styles/view";
+import { postType } from "constans/types";
 
 const thumbnailCss = css`
   display: grid;
@@ -50,6 +52,11 @@ const PostThumbnail = ({ category, post }) => {
       <span>{post.desc}</span>
     </Link>
   );
+};
+
+PostThumbnail.propTypes = {
+  category: PropTypes.string,
+  post: PropTypes.shape(postType),
 };
 
 export default PostThumbnail;

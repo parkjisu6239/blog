@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import PropTypes from "prop-types";
 import { css } from "@emotion/css";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -179,6 +180,11 @@ const MarkDown = ({ mdPath, category }) => {
       </ReactMarkdown>
     )
   );
+};
+
+MarkDown.propTypes = {
+  mdPath: PropTypes.string,
+  category: PropTypes.string,
 };
 
 export default MarkDown;
