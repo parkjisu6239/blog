@@ -46,7 +46,14 @@ export const postInfo = {
       desc: "ts를 배워봅시다.",
     },
   ],
-  Books: [],
+  Books: [
+    {
+      createdAt: "2022-07-10",
+      fileName: "clean-code-ch1.md",
+      title: "[Clean Code] Chap1. 깨끗한 코드",
+      desc: "Chapter1 | 클린코드란 무엇인가? 네임드 개발자들은 클린코드를 무엇이라고 말하는가?",
+    },
+  ],
   "Computer-Science": [],
   React: [
     {

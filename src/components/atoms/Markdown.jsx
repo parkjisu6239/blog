@@ -84,7 +84,7 @@ const markDownCss = css`
   }
 
   img {
-    width: 50%;
+    max-width: 100%;
   }
 
   ul,

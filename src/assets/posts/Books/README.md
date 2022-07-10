@@ -1,0 +1,3 @@
+| Clean Code | Effective Typescript | 함수형 코딩 | Http 완벽 가이드|
+| ---- | ------- | -------- | -------- |
+| ![clean-code](http://image.kyobobook.co.kr/images/book/xlarge/959/x9788966260959.jpg) | ![Effective Typescript](https://effectivetypescript.com/images/cover.jpg) | ![functional-coding](http://image.kyobobook.co.kr/images/book/xlarge/759/x9791191600759.jpg) | ![http-perfect-guide](https://image.yes24.com/goods/15381085/XL) |
