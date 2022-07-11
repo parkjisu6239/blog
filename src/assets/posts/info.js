@@ -53,6 +53,12 @@ export const postInfo = {
       title: "[Clean Code] Chap1. 깨끗한 코드",
       desc: "Chapter1 | 클린코드란 무엇인가? 네임드 개발자들은 클린코드를 무엇이라고 말하는가?",
     },
+    {
+      createdAt: "2022-07-11",
+      fileName: "clean-code-ch2.md",
+      title: "[Clean Code] Chap2. 의미있는 이름",
+      desc: "Chapter2 | 의미있는 이름을 짓기 위한 여러 가지 가이드와 예시",
+    },
   ],
   "Computer-Science": [],
   React: [
