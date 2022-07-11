@@ -8,8 +8,8 @@ const If = ({ condition, children }) => {
 };
 
 If.propTypes = {
-  condition: PropTypes.boolean,
-  children: PropTypes.ReactNodeLike,
+  condition: PropTypes.bool,
+  children: PropTypes.element,
 };
 
 export default If;
