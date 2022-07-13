@@ -1,69 +1,75 @@
-<img src="README.assets/KakaoTalk_20210827_140856507_02.jpg" alt="emoji" width="30%"/>
+### *Who am I*
 
-# 안녕하세요
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+- javascript와 React를 주로 사용하는 프론트엔드 개발자입니다.
+- 기능 단위의 효율적인 컴포넌트 관리에 관심이 있습니다.
+- 작은 기능을 만들더라도 높은 퀄리티로 마감을 높이는 것을 좋아합니다.
+- 클린코드를 지향합니다. 알아보기 쉽고, 효율적인 코드를 짜려고 노력합니다.
+- 심플하고 감각적인 디자인을 지향합니다.
+- 시맨틱 태그 사용을 준수하려고 노력합니다.
+- Opensource에 기여한 경험이 있습니다.
+- 일을 미루지 않습니다. 책임감이 강하고 계획을 세우고, 잘 지킵니다.
+- 여러 사람과 일을 해본 경험이 많습니다.
+- SSAFY 코치로 근무한 이력이 있습니다.
+- 현재는 `streami`에서 프론트엔드 개발자로 근무하고 있습니다.
+- 더 자세한 설명은 <a href="https://g-water.notion.site/667c8c77d28748d1a5c4ef8b277f45a8">포트폴리오</a>를 참고해주세요
 
-## 안녕하세요
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+<br>
 
-### 안녕하세요
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-#### 안녕하세요
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-##### 안녕하세요
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+### *Education*
+- 2015.03 ~ 2020.02 | 수학 학사 / 빅데이터 학사(복수전공)
+- 2021.01 ~ 2021.12 | 삼성 청년 소프트웨어 아카데미 5기
 
-이것은 설명입니다.
+<br>
 
-> 이것은 설명입니다.
->
-> 이것은 설명입니다.
->
-> 이것은 설명입니다.
+### *Experience*
+- 2020.02 ~ 2020.10 | AMPM 글로벌(퍼포먼스 마케터)
+- 2022.01 ~ 2022.03 | 삼성 청년 소프트웨어 아카데미 6기 실습 코치
+- 2022.03 ~ 현재 | Streami FE developer
 
-`이것은` 설명입니다.
+<br/>
+<hr/>
+<br>
 
-~이것은 설명입니다.~
-
-*이것은 설명입니다*
-
-[이것](https://github.com/parkjisu6239)은 설명입니다.
-
-**이것은** 설명입니다.
-
-```js
-const a = 1
-```
-
-| Date | Content | Category |
-| ---- | ------- | -------- |
-| 1 | 2 | 3 |
-| ㅁ | ㄴ | ㅇ |
-| ! | @ | # |
-
-- 하나
-- 둘
-- 셋
-
-- 하나
-  - 둘
-  - 셋
-- 둘
-- 셋
-
-1. 하나
-2. 둘
-3. 셋
-
-### Lists
-* [ ] todo
-* [x] done
+<div align="center" style="display: flex; gap: 5px; justify-content: center; align-items: flex-start;">
+  
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=parkjisu6239)](https://github.com/anuraghazra/github-readme-stats)
 
 
-<details>
-<summary>title</summary>
-    
-```java
-String test = "test";    
-```
-</details>
+<img alugn="right" src="https://mazassumnida.wtf/api/v2/generate_badge?boj=jisu_0528"> 
+
+
+</div>
+
+<br/>
+<hr/>
+<br>
+
+### 🛠 Tech Stack
+
+<img src="https://img.shields.io/badge/Javascript-ffb13b?style=flat-square&logo=javascript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Typescript-3766AB?style=flat-square&logo=typescript&logoColor=white"/>
+<img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white"/>
+<img alt="NodeJS" src="https://img.shields.io/badge/node.js-%2343853D.svg?style=flat-square&logo=node-dot-js&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/> <img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=flat-square&logo=css3&logoColor=white"/>
+<img alt="R" src="https://img.shields.io/badge/r-%23276DC3.svg?style=flat-square&logo=r&logoColor=white"/>
+<img alt="MySQL" src="https://img.shields.io/badge/mysql-%2300f.svg?style=flat-square&logo=mysql&logoColor=white"/>
+
+
+</br>
+
+### ⚙ Frameworks and libraries
+
+<img src="https://img.shields.io/badge/react-61DAFB?style=flat-square&logo=react&logoColor=black">
+<img src="https://img.shields.io/badge/vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white">
+<img alt="Django" src="https://img.shields.io/badge/django-%23092E20.svg?style=flat-square&logo=django&logoColor=white"/>
+
+
+</br>
+
+### 🎨 Design
+
+<img alt="Adobe" src="https://img.shields.io/badge/adobe-%23FF0000.svg?style=flat-square&logo=adobe&logoColor=white"/> <img alt="Adobe Photoshop" src="https://img.shields.io/badge/adobephotoshop-%2331A8FF.svg?style=flat-square&logo=adobephotoshop&logoColor=white"/>
+
+<br>
+
+![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&width=auto&section=footer&text=Have%20a%20nice%20day!&fontSize=20&fontColor=ffffff&fontAlignY=75)

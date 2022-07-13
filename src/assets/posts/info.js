@@ -59,6 +59,12 @@ export const postInfo = {
       title: "[Clean Code] Chap2. 의미있는 이름",
       desc: "Chapter2 | 의미있는 이름을 짓기 위한 여러 가지 가이드와 예시",
     },
+    {
+      createdAt: "2022-07-12",
+      fileName: "clean-code-ch3.md",
+      title: "[Clean Code] Chap3. 함수",
+      desc: "Chapter3 | 좋은 함수를 만들기 위한 가이드",
+    },
   ],
   "Computer-Science": [],
   React: [
