@@ -83,5 +83,12 @@ export const postInfo = {
     },
   ],
   "HTML-CSS": [],
-  Web: [],
+  Web: [
+    {
+      createdAt: "2022-07-14",
+      fileName: "git_command.md",
+      title: "맨날 까먹는, 자주쓰는 Git 명령어 모음.Zip",
+      desc: "자주 사용하는 Git 명령어, 내가 나중에 보기 위해서 기록하는 명령어들 모음",
+    },
+  ],
 };
