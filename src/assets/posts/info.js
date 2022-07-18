@@ -66,6 +66,13 @@ export const postInfo = {
       title: "[Clean Code] Chap3. 함수",
       desc: "Chapter3 | 좋은 함수를 만들기 위한 가이드",
     },
+    {
+      createdAt: "2022-07-16",
+      fileName: "functional-coding-ch1.md",
+      title:
+        "[Functional Coding] Chap1. 쏙쏙 들어오는 함수형 코딩에 오신 것을 환영합니다",
+      desc: "이 장에서는 함수형 사고가 무엇인지, 왜 함수형 사고가 더 좋은 소프트웨어를 만들려는 개발자에게 도움이 되는지 설명한다.",
+    },
   ],
   "Computer-Science": [],
   React: [
