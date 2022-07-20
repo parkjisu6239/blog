@@ -8,6 +8,7 @@ git reset --hard HEAD // 변경 사항 모두 버리고 HEAD로 돌아가기(sta
 git revert -m 1 <merge_commit> // merge 완료 후 취소(바로 이전 커밋으로 돌아가기)
 git cherry-pick <commit 이름> // 특정 커밋 가져오기
 git reset --soft HEAD~1 // 이전 커밋으로 돌아가기, 변경 사항은 stage에 남음
+git checkout -t <remote branch name> // remote 브랜치 가져오기
 ```
 
 ### Commit squash, 커밋 합치기
@@ -88,4 +89,12 @@ checkout은 그 브랜치로부터 새로운 브랜치를 따는 것. 체리픽 
 ```bash
 git reset --soft HEAD^
 git reset --soft HEAD~1 // hard 로 하면 stage 에도 남지 않음
+```
+
+## Remote branch pull
+원격 저장소의 특정 브랜치를 가져올 떄 사용
+```bash
+git remote update // remote branch 갱신
+
+git checkout -t <branch name>
 ```
