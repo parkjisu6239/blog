@@ -94,6 +94,12 @@ export const postInfo = {
       title: "React Hook APIs",
       desc: "기본 훅 useState, useEffect, useContext, 추가 Hooks useReducer, useCallback, useMemo, useRef",
     },
+    {
+      createdAt: "2022-07-23",
+      fileName: "CompoundComponentDesignPattern.md",
+      title: "Compound Component Design Pattern in React",
+      desc: "props drilling 을 피하고, 유연한 컴포넌트 패턴을 작성하는 방법.(+ useContext로 state 공유하기)",
+    },
   ],
   "HTML-CSS": [],
   Web: [
