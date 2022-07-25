@@ -79,6 +79,12 @@ export const postInfo = {
       title: "[HTTP 완벽 가이드] Chap1. HTTP 개관",
       desc: "HTTP 프로토콜을 간략하게 소개한다.",
     },
+    {
+      createdAt: "2022-07-26",
+      fileName: "effective-ts-ch1.md",
+      title: "[Effective TypeScript] Chap1. 타입스크립트 알아보기",
+      desc: "TS의 큰 그림을 이해하는 데 도움이 될 내용을 다룬다. TS란 무엇이고, TS를 어떻게 여겨야 하는지, JS와는 어떤 관계인지 등을 알아본다.",
+    },
   ],
   "Computer-Science": [],
   React: [
