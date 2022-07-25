@@ -5,7 +5,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { duotoneLight } from "react-syntax-highlighter/dist/cjs/styles/prism";
+import { materialDark } from "react-syntax-highlighter/dist/cjs/styles/prism";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
 
@@ -44,15 +44,14 @@ const markDownCss = css`
 
   h1 {
     font-size: 32px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     border-bottom: 1px solid ${basicColor.gray2};
   }
 
   h2 {
     font-size: 24px;
-    margin-top: 24px;
-    margin-bottom: 16px;
-    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
     line-height: 1.25;
     padding-bottom: 5px;
     border-bottom: 1px solid ${basicColor.gray2};
@@ -60,7 +59,7 @@ const markDownCss = css`
 
   h3 {
     font-size: 20px;
-    margin-top: 24px;
+    margin-top: 30px;
     margin-bottom: 10px;
   }
 
@@ -134,7 +133,7 @@ const CodeBlock = {
     const match = /language-(\w+)/.exec(className || "");
     return !inline && match ? (
       <SyntaxHighlighter
-        style={duotoneLight}
+        style={materialDark}
         language={match[1]}
         PreTag="div"
         {...props}
