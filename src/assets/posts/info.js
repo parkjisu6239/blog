@@ -85,6 +85,12 @@ export const postInfo = {
       title: "[Effective TypeScript] Chap1. 타입스크립트 알아보기",
       desc: "TS의 큰 그림을 이해하는 데 도움이 될 내용을 다룬다. TS란 무엇이고, TS를 어떻게 여겨야 하는지, JS와는 어떤 관계인지 등을 알아본다.",
     },
+    {
+      createdAt: "2022-07-27",
+      fileName: "http-ch2.md",
+      title: "[HTTP 완벽 가이드] Chap2. URL과 리소스",
+      desc: "URL을 구성하는 컴포넌트를 설명한다.",
+    },
   ],
   "Computer-Science": [],
   React: [
