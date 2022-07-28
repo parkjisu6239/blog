@@ -91,6 +91,12 @@ export const postInfo = {
       title: "[HTTP 완벽 가이드] Chap2. URL과 리소스",
       desc: "URL을 구성하는 컴포넌트를 설명한다.",
     },
+    {
+      createdAt: "2022-07-28",
+      fileName: "functional-coding-ch2.md",
+      title: "[Functional Coding] Chap2. 현실에서의 함수형 사고",
+      desc: "계층적 설계와 타임라인 다이어그램에 대해 알아본다.",
+    },
   ],
   "Computer-Science": [],
   React: [
