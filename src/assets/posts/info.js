@@ -97,6 +97,13 @@ export const postInfo = {
       title: "[Functional Coding] Chap2. 현실에서의 함수형 사고",
       desc: "계층적 설계와 타임라인 다이어그램에 대해 알아본다.",
     },
+    {
+      createdAt: "2022-07-29",
+      fileName: "effective-ts-item6.md",
+      title:
+        "[Effective TypeScript] Item6. 편집기를 사용하여 타입 시스템 탐색하기",
+      desc: "IDE 를 활용하여 타입 시스템을 알아보기",
+    },
   ],
   "Computer-Science": [],
   React: [
