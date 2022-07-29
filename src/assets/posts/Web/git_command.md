@@ -1,6 +1,6 @@
 # 맨날 까먹는 Git 명령어 정리
 
-## TI;DL
+## TL;DR
 ```bash
 git rebase -i HEAD~<n> // 인터렉티브 리베이스 : 스쿼시, 커밋 메시지 수정 등에 사용
 git merge --abort // merge 진행 중 취소
