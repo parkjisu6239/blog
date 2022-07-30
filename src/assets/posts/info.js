@@ -104,6 +104,12 @@ export const postInfo = {
         "[Effective TypeScript] Item6. 편집기를 사용하여 타입 시스템 탐색하기",
       desc: "IDE 를 활용하여 타입 시스템을 알아보기",
     },
+    {
+      createdAt: "2022-07-30",
+      fileName: "effective-ts-item7.md",
+      title: "[Effective TypeScript] Item7. 타입이 값들의 집합이라고 생각하기",
+      desc: "타입을 할당 가능한 값들의 집합이라고 생각하면, 합집합, 교집합, 차집합으로 생각할 수 있다.",
+    },
   ],
   "Computer-Science": [],
   React: [
