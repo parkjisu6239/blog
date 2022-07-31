@@ -110,6 +110,13 @@ export const postInfo = {
       title: "[Effective TypeScript] Item7. 타입이 값들의 집합이라고 생각하기",
       desc: "타입을 할당 가능한 값들의 집합이라고 생각하면, 합집합, 교집합, 차집합으로 생각할 수 있다.",
     },
+    {
+      createdAt: "2022-07-31",
+      fileName: "effective-ts-item8.md",
+      title:
+        "[Effective TypeScript] Item 8. 타입 공간과 값 공간의 심벌 구분하기",
+      desc: "타입 스크립트의 심벌은 타입 공간이나 값 공간 중의 한 곳에 존재할 수 있다.",
+    },
   ],
   "Computer-Science": [],
   React: [
