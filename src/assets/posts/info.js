@@ -117,6 +117,13 @@ export const postInfo = {
         "[Effective TypeScript] Item 8. 타입 공간과 값 공간의 심벌 구분하기",
       desc: "타입 스크립트의 심벌은 타입 공간이나 값 공간 중의 한 곳에 존재할 수 있다.",
     },
+    {
+      createdAt: "2022-08-01",
+      fileName: "effective-ts-item9.md",
+      title:
+        "[Effective TypeScript] Item 9. 타입 단언보다는 타입 선언을 사용하기",
+      desc: "타입 단언과 타입 선언의 차이, 타입 단언을 사용해도 괜찮은 경우를 알아보자.",
+    },
   ],
   "Computer-Science": [],
   React: [
