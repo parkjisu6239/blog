@@ -43,7 +43,8 @@ github.io 에 배포합니다. `package.json`의 `homepage`와 github repo name�
 ## 참고한 글
 - [Adding dynamic meta tags to a React app without SSR
 ](https://blog.logrocket.com/adding-dynamic-meta-tags-react-app-without-ssr/)
-
+- [react router를 사용하여 SPA로 Github page에 배포하기 위한 방법](https://github.com/rafgraph/spa-github-pages)
+  - github page 는 SPA를 지원하지 않아서, 배포된 사이트의 서브 url로 접속하면 404 페이지가 나오는데, 이를 해결하기 위한 일종의 트릭
 
 ## todo
 - toc 지원
