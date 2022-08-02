@@ -124,6 +124,12 @@ export const postInfo = {
         "[Effective TypeScript] Item 9. 타입 단언보다는 타입 선언을 사용하기",
       desc: "타입 단언과 타입 선언의 차이, 타입 단언을 사용해도 괜찮은 경우를 알아보자.",
     },
+    {
+      createdAt: "2022-08-02",
+      fileName: "http-ch3.md",
+      title: "[HTTP 완벽 가이드] Chap3. HTTP 메시지",
+      desc: "http 메시지의 시작줄, 헤더, 본문, 상태코드",
+    },
   ],
   "Computer-Science": [],
   React: [
