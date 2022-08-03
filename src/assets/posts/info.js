@@ -130,6 +130,12 @@ export const postInfo = {
       title: "[HTTP 완벽 가이드] Chap3. HTTP 메시지",
       desc: "http 메시지의 시작줄, 헤더, 본문, 상태코드",
     },
+    {
+      createdAt: "2022-08-03",
+      fileName: "functional-coding-ch3.md",
+      title: "[Functional Coding] Chap3. 액션과 계산, 데이터의 차이를 알기",
+      desc: "코드에서 액션, 데이터, 계산을 분리하자",
+    },
   ],
   "Computer-Science": [],
   React: [
