@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/blog/static/css/main.02f38b43.css",
-    "main.js": "/blog/static/js/main.66960624.js",
+    "main.js": "/blog/static/js/main.f92c1b72.js",
     "static/media/apple_158989157.jpg": "/blog/static/media/apple_158989157.e2f1ddc8c6516d67a3e2.jpg",
     "static/media/http-4-2.png": "/blog/static/media/http-4-2.a9a96558ec76f08f5c26.png",
     "static/media/http-4-13.png": "/blog/static/media/http-4-13.0f7474cba3815aaebe96.png",
@@ -9,7 +9,7 @@
     "static/media/http-4-3.png": "/blog/static/media/http-4-3.3950d328e70e59b5245c.png",
     "static/media/http-4-4.png": "/blog/static/media/http-4-4.967d61117e13385fe3f1.png",
     "static/media/http-4-10.png": "/blog/static/media/http-4-10.0946b48d65a49ab77022.png",
-    "static/media/transaction.png": "/blog/static/media/transaction.a4ef988db1c15ace91f3.png",
+    "static/media/http-1-1.png": "/blog/static/media/http-1-1.a4ef988db1c15ace91f3.png",
     "static/media/http-4-8.png": "/blog/static/media/http-4-8.ad73cde0ef88dbf7c29b.png",
     "static/media/http-4-9.png": "/blog/static/media/http-4-9.d9582ca3f496c7fa7ff7.png",
     "static/media/http-4-11.png": "/blog/static/media/http-4-11.efba932c135d6c0dd338.png",
@@ -17,12 +17,12 @@
     "static/media/http-4-6.png": "/blog/static/media/http-4-6.4eac58a088c8224f136c.png",
     "static/media/http-4-7.png": "/blog/static/media/http-4-7.18392b1cde4985fd59c4.png",
     "static/media/jang.png": "/blog/static/media/jang.a3b9ce57569dd1b87bbc.png",
+    "static/media/http-ch4.md": "/blog/static/media/http-ch4.b9a34d59e7d104040abf.md",
     "static/media/http-ch3.md": "/blog/static/media/http-ch3.15173c34327e379be1f7.md",
-    "static/media/http-ch4.md": "/blog/static/media/http-ch4.59b1088e4e1953dc51bc.md",
     "static/media/KakaoTalk_20210827_140856507_02.jpg": "/blog/static/media/KakaoTalk_20210827_140856507_02.7f10546a35b7d8e8755d.jpg",
     "static/media/effective-ts-ch1.md": "/blog/static/media/effective-ts-ch1.c0e43c61a060f2681e47.md",
     "static/media/clean-code-ch3.md": "/blog/static/media/clean-code-ch3.b0b2fb4d85c13c0a505d.md",
-    "static/media/http-ch1.md": "/blog/static/media/http-ch1.1cceb8cf71c92b5e1332.md",
+    "static/media/http-ch1.md": "/blog/static/media/http-ch1.f9f2772d779c4ec39c3c.md",
     "static/media/functional-coding-ch3.md": "/blog/static/media/functional-coding-ch3.a26a7c169d66844ee4c8.md",
     "static/media/immer.md": "/blog/static/media/immer.4264d6281e6f3e4ed543.md",
     "static/media/http-ch2.md": "/blog/static/media/http-ch2.2e097cbbe2bd40597231.md",
@@ -47,10 +47,10 @@
     "static/media/learn-js6.md": "/blog/static/media/learn-js6.a2516d26f5c8496e2c7b.md",
     "static/media/learn-ts.md": "/blog/static/media/learn-ts.eb60d29ce3f2b62baff6.md",
     "main.02f38b43.css.map": "/blog/static/css/main.02f38b43.css.map",
-    "main.66960624.js.map": "/blog/static/js/main.66960624.js.map"
+    "main.f92c1b72.js.map": "/blog/static/js/main.f92c1b72.js.map"
   },
   "entrypoints": [
     "static/css/main.02f38b43.css",
-    "static/js/main.66960624.js"
+    "static/js/main.f92c1b72.js"
   ]
 }
