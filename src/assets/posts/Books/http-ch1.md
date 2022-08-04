@@ -92,7 +92,7 @@ Content-Type: text/xsl
 - 전체 코드는 [mdn](https://developer.mozilla.org/ko/docs/Web/HTTP/Status) 에서 확인할 수 있다.
 
 ### 4.3. 웹 페이지는 여러 객체로 이루어질 수 있다.
-![transaction](http-ch1.assets/transaction.PNG)
+![transaction](image_http.assets/http-1-1.png)
 - 애플리케이션은 하나의 작업을 수행하기 위해 여러번 http 트랜잭션을 수행한다.
 - 보통 웹페이지(ex. www.google.com) 에 접속하면, `index.html` 같은 html 문서를 응답 받는다.
 - 이후에 html 문서에 연결된 javascript, 이미지 등을 추가로 http 트랜잭션을 수행한다.
