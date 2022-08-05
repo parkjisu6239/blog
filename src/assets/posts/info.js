@@ -142,6 +142,12 @@ export const postInfo = {
       title: "[HTTP 완벽 가이드] Chap4. 커넥션 관리",
       desc: "http 통신은 TCP/IP 를 통해 이루어진다.",
     },
+    {
+      createdAt: "2022-08-05",
+      fileName: "effective-ts-item10.md",
+      title: "[Effective TypeScript] Item 10. 객체 래퍼 타입 피하기",
+      desc: "타입스크립트에서 기본형과 객체래퍼타입은 다르다. 객체래퍼타입의 사용은 지양하고, 타입은 기본형으로 지정해야 한다.",
+    },
   ],
   "Computer-Science": [],
   React: [
