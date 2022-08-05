@@ -136,6 +136,12 @@ export const postInfo = {
       title: "[Functional Coding] Chap3. 액션과 계산, 데이터의 차이를 알기",
       desc: "코드에서 액션, 데이터, 계산을 분리하자",
     },
+    {
+      createdAt: "2022-08-04",
+      fileName: "http-ch4.md",
+      title: "[HTTP 완벽 가이드] Chap4. 커넥션 관리",
+      desc: "http 통신은 TCP/IP 를 통해 이루어진다.",
+    },
   ],
   "Computer-Science": [],
   React: [
