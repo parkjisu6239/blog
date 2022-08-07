@@ -169,6 +169,12 @@ export const postInfo = {
       title: "Compound Component Design Pattern in React",
       desc: "props drilling 을 피하고, 유연한 컴포넌트 패턴을 작성하는 방법.(+ useContext로 state 공유하기)",
     },
+    {
+      createdAt: "2022-08-07",
+      fileName: "render-props.md",
+      title: "React RenderProps in functional component",
+      desc: "renderProps란? 예제로 이해하는 renderProps, 장단점",
+    },
   ],
   "HTML-CSS": [],
   Web: [
