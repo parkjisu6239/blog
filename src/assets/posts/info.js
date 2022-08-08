@@ -148,6 +148,12 @@ export const postInfo = {
       title: "[Effective TypeScript] Item 10. 객체 래퍼 타입 피하기",
       desc: "타입스크립트에서 기본형과 객체래퍼타입은 다르다. 객체래퍼타입의 사용은 지양하고, 타입은 기본형으로 지정해야 한다.",
     },
+    {
+      createdAt: "2022-08-08",
+      fileName: "effective-ts-item11.md",
+      title: "[Effective TypeScript] Item 11. 잉여 속성 체크의 한계 인지하기",
+      desc: "구조적 타이핑 관점에서 잉여 속성 체크가 어떻게 동작하는지 알아보자. 잉여 속성 체크와 할당 가능 검사는 별도로 동작한다.",
+    },
   ],
   "Computer-Science": [],
   React: [
