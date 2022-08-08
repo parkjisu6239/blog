@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/blog/static/css/main.02f38b43.css",
-    "main.js": "/blog/static/js/main.fb62e0f4.js",
+    "main.js": "/blog/static/js/main.2c82a30c.js",
     "static/media/apple_158989157.jpg": "/blog/static/media/apple_158989157.e2f1ddc8c6516d67a3e2.jpg",
     "static/media/http-4-2.png": "/blog/static/media/http-4-2.a9a96558ec76f08f5c26.png",
     "static/media/http-4-13.png": "/blog/static/media/http-4-13.0f7474cba3815aaebe96.png",
@@ -30,6 +30,7 @@
     "static/media/hooks.md": "/blog/static/media/hooks.9f0ccbd1bc45c66390ba.md",
     "static/media/render-props.md": "/blog/static/media/render-props.2ead5332dc5a71f1a312.md",
     "static/media/effective-ts-item8.md": "/blog/static/media/effective-ts-item8.5aefc050bc063014e688.md",
+    "static/media/effective-ts-item11.md": "/blog/static/media/effective-ts-item11.000c2ac02846a9307226.md",
     "static/media/clean-code-ch2.md": "/blog/static/media/clean-code-ch2.0a03df4d1b67f931b98a.md",
     "static/media/effective-ts-item9.md": "/blog/static/media/effective-ts-item9.bf94d2f5715fcc421ddb.md",
     "static/media/functional-coding-ch2.md": "/blog/static/media/functional-coding-ch2.3ba86dad5eff551619d1.md",
@@ -50,10 +51,10 @@
     "static/media/learn-js6.md": "/blog/static/media/learn-js6.a2516d26f5c8496e2c7b.md",
     "static/media/learn-ts.md": "/blog/static/media/learn-ts.eb60d29ce3f2b62baff6.md",
     "main.02f38b43.css.map": "/blog/static/css/main.02f38b43.css.map",
-    "main.fb62e0f4.js.map": "/blog/static/js/main.fb62e0f4.js.map"
+    "main.2c82a30c.js.map": "/blog/static/js/main.2c82a30c.js.map"
   },
   "entrypoints": [
     "static/css/main.02f38b43.css",
-    "static/js/main.fb62e0f4.js"
+    "static/js/main.2c82a30c.js"
   ]
 }
