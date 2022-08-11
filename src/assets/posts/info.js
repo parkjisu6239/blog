@@ -154,6 +154,12 @@ export const postInfo = {
       title: "[Effective TypeScript] Item 11. 잉여 속성 체크의 한계 인지하기",
       desc: "구조적 타이핑 관점에서 잉여 속성 체크가 어떻게 동작하는지 알아보자. 잉여 속성 체크와 할당 가능 검사는 별도로 동작한다.",
     },
+    {
+      createdAt: "2022-08-10",
+      fileName: "http-ch5.md",
+      title: "[HTTP 완벽 가이드] Chap5. 웹 서버",
+      desc: "웹서버란? 웹서버의 기본 리소스 경로, 커넥션 생성 및 트랜잭션 처리",
+    },
   ],
   "Computer-Science": [],
   React: [
@@ -180,6 +186,12 @@ export const postInfo = {
       fileName: "render-props.md",
       title: "React RenderProps in functional component",
       desc: "renderProps란? 예제로 이해하는 renderProps, 장단점",
+    },
+    {
+      createdAt: "2022-08-11",
+      fileName: "useRef.md",
+      title: "React useRef + typesscript",
+      desc: "useRef를 사용하는 이유, type 지정하기, 하위 컴포넌트에게 전달하기",
     },
   ],
   "HTML-CSS": [],
