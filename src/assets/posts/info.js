@@ -160,6 +160,12 @@ export const postInfo = {
       title: "[HTTP 완벽 가이드] Chap5. 웹 서버",
       desc: "웹서버란? 웹서버의 기본 리소스 경로, 커넥션 생성 및 트랜잭션 처리",
     },
+    {
+      createdAt: "2022-08-12",
+      fileName: "effective-ts-item12.md",
+      title: "[Effective TypeScript] Item 12. 함수 표현식에 타입 적용하기",
+      desc: "함수 선언식 보다는 표현식을 사용하는 것이 낫다. 함수 파라미터와 반환값의 타입을 지정하는 것보다, 함수 표현식 전체에 타입 구문을 적용하는 것이 좋다.",
+    },
   ],
   "Computer-Science": [],
   React: [
