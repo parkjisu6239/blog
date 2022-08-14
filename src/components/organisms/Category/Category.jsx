@@ -94,6 +94,10 @@ const Category = () => {
     return <Empty />;
   }
 
+  if (posts.length === 0) {
+    return <Empty />;
+  }
+
   return (
     <article className={categoryCss}>
       <h1 className={titleCss}>{category.replace("-", " ")}</h1>
@@ -117,6 +121,7 @@ const Category = () => {
               );
             })}
         </div>
+        {}
         <Pagination
           count={Math.ceil(posts.length / pagePerPost)}
           page={page}
