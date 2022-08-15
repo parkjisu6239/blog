@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/blog/static/css/main.02f38b43.css",
-    "main.js": "/blog/static/js/main.0bb2bca6.js",
+    "main.js": "/blog/static/js/main.12549bbf.js",
     "static/media/apple_158989157.jpg": "/blog/static/media/apple_158989157.e2f1ddc8c6516d67a3e2.jpg",
     "static/media/http-4-2.png": "/blog/static/media/http-4-2.a9a96558ec76f08f5c26.png",
     "static/media/http-4-13.png": "/blog/static/media/http-4-13.0f7474cba3815aaebe96.png",
@@ -53,18 +53,11 @@
     "static/media/clean-code-ch1.md": "/blog/static/media/clean-code-ch1.7fcf0a4e5a711005b005.md",
     "static/media/effective-ts-item6.md": "/blog/static/media/effective-ts-item6.aebeb4a4584c3ce4e3f8.md",
     "index.html": "/blog/index.html",
-    "static/media/learn-js.md": "/blog/static/media/learn-js.0efe9671207e6f3c5ffd.md",
-    "static/media/learn-js4.md": "/blog/static/media/learn-js4.0efe9671207e6f3c5ffd.md",
-    "static/media/learn-js2.md": "/blog/static/media/learn-js2.a2516d26f5c8496e2c7b.md",
-    "static/media/learn-js3.md": "/blog/static/media/learn-js3.a2516d26f5c8496e2c7b.md",
-    "static/media/learn-js5.md": "/blog/static/media/learn-js5.a2516d26f5c8496e2c7b.md",
-    "static/media/learn-js6.md": "/blog/static/media/learn-js6.a2516d26f5c8496e2c7b.md",
-    "static/media/learn-ts.md": "/blog/static/media/learn-ts.eb60d29ce3f2b62baff6.md",
     "main.02f38b43.css.map": "/blog/static/css/main.02f38b43.css.map",
-    "main.0bb2bca6.js.map": "/blog/static/js/main.0bb2bca6.js.map"
+    "main.12549bbf.js.map": "/blog/static/js/main.12549bbf.js.map"
   },
   "entrypoints": [
     "static/css/main.02f38b43.css",
-    "static/js/main.0bb2bca6.js"
+    "static/js/main.12549bbf.js"
   ]
 }
