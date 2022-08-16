@@ -122,6 +122,12 @@ export const postInfo = {
       title: "[Effective TypeScript] Item 12. 함수 표현식에 타입 적용하기",
       desc: "함수 선언식 보다는 표현식을 사용하는 것이 낫다. 함수 파라미터와 반환값의 타입을 지정하는 것보다, 함수 표현식 전체에 타입 구문을 적용하는 것이 좋다.",
     },
+    {
+      createdAt: "2022-08-16",
+      fileName: "functional-coding-ch4.md",
+      title: "[Functional Coding] Chap4. 액션에서 계산 빼내기",
+      desc: "테스트가 쉽고 재사용성이 좋은 코드를 만들기 위해 액션에서 계산을 빼낼수 있다.",
+    },
   ],
   "Computer-Science": [],
   React: [
