@@ -170,5 +170,11 @@ export const postInfo = {
       title: "맨날 까먹는, 자주쓰는 Git 명령어 모음.Zip",
       desc: "자주 사용하는 Git 명령어, 내가 나중에 보기 위해서 기록하는 명령어들 모음",
     },
+    {
+      createdAt: "2022-08-17",
+      fileName: "regex.md",
+      title: "자주 쓰는 Regex pattern",
+      desc: "정규표현식 기본 문접과 자주 사용하는 정규 표현식 패턴",
+    },
   ],
 };
