@@ -128,6 +128,12 @@ export const postInfo = {
       title: "[Functional Coding] Chap4. 액션에서 계산 빼내기",
       desc: "테스트가 쉽고 재사용성이 좋은 코드를 만들기 위해 액션에서 계산을 빼낼수 있다.",
     },
+    {
+      createdAt: "2022-08-18",
+      fileName: "effective-ts-item13.md",
+      title: "[Effective TypeScript] Item 13. 타입과 인터페이스의 차이점 알기",
+      desc: "extends, union은 type만 사용 가능하다. interface는 보강이 가능하다.",
+    },
   ],
   "Computer-Science": [],
   React: [
