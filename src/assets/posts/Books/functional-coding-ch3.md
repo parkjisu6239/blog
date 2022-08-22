@@ -59,7 +59,7 @@
 
 위에서 더 작게 나눈 코드들을 아래처럼 표시할 수 있다.
 
-![jang](functional-codding.assets/jang.png)
+![jang](functional-coding.assets/jang.png)
 
 각 단계를 더 작게 나눌 수도 있다. 계속 나누다 보면 더 복잡해진다고 생각할 수 있지만, 액션에 숨어있는 다른 액션이나 계산 또는 데이터를 발견하기 위해 나눌 수 있는 만큼 나누는 것이 좋다.
 

@@ -134,6 +134,12 @@ export const postInfo = {
       title: "[Effective TypeScript] Item 13. 타입과 인터페이스의 차이점 알기",
       desc: "extends, union은 type만 사용 가능하다. interface는 보강이 가능하다.",
     },
+    {
+      createdAt: "2022-08-22",
+      fileName: "functional-coding-ch5.md",
+      title: "[Functional Coding] Chap5. 더 좋은 액션 만들기",
+      desc: "액션은 계산으로 만들지 못하더라도 암묵적 입출력은 줄이는 것이 좋다. 엉켜있는 코드를 분류하여 계층적 설계를 한다.",
+    },
   ],
   "Computer-Science": [],
   React: [
