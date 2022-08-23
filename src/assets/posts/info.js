@@ -140,6 +140,13 @@ export const postInfo = {
       title: "[Functional Coding] Chap5. 더 좋은 액션 만들기",
       desc: "액션은 계산으로 만들지 못하더라도 암묵적 입출력은 줄이는 것이 좋다. 엉켜있는 코드를 분류하여 계층적 설계를 한다.",
     },
+    {
+      createdAt: "2022-08-23",
+      fileName: "effective-ts-item14.md",
+      title:
+        "[Effective TypeScript] Item 14. 타입 연산과 제네릭 사용으로 반복줄이기",
+      desc: "Don't Repeat yourself 는 타입 시스템에서도 유효하다. 제네릭 타입을 사용하자",
+    },
   ],
   "Computer-Science": [],
   React: [
