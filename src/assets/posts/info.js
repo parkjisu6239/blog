@@ -147,6 +147,12 @@ export const postInfo = {
         "[Effective TypeScript] Item 14. 타입 연산과 제네릭 사용으로 반복줄이기",
       desc: "Don't Repeat yourself 는 타입 시스템에서도 유효하다. 제네릭 타입을 사용하자",
     },
+    {
+      createdAt: "2022-08-24",
+      fileName: "http-ch6.md",
+      title: "[HTTP 완벽 가이드] Chap5. 프락시",
+      desc: "프락시의 종류, 프락시를 사용하는 이유, 위치, 설정",
+    },
   ],
   "Computer-Science": [],
   React: [
