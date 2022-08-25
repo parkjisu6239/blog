@@ -153,6 +153,13 @@ export const postInfo = {
       title: "[HTTP 완벽 가이드] Chap5. 프락시",
       desc: "프락시의 종류, 프락시를 사용하는 이유, 위치, 설정",
     },
+    {
+      createdAt: "2022-08-26",
+      fileName: "effective-ts-item15.md",
+      title:
+        "[Effective TypeScript] Item 15. 동적 데이터에 인덱스 시그니처 사용하기",
+      desc: "인덱스 시그니처를 활용하는 방법, 사용하지 않아야 하는 이유",
+    },
   ],
   "Computer-Science": [],
   React: [
