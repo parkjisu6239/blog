@@ -150,7 +150,7 @@ export const postInfo = {
     {
       createdAt: "2022-08-24",
       fileName: "http-ch6.md",
-      title: "[HTTP 완벽 가이드] Chap5. 프락시",
+      title: "[HTTP 완벽 가이드] Chap6. 프락시",
       desc: "프락시의 종류, 프락시를 사용하는 이유, 위치, 설정",
     },
     {
