@@ -160,6 +160,13 @@ export const postInfo = {
         "[Effective TypeScript] Item 15. 동적 데이터에 인덱스 시그니처 사용하기",
       desc: "인덱스 시그니처를 활용하는 방법, 사용하지 않아야 하는 이유",
     },
+    {
+      createdAt: "2022-08-29",
+      fileName: "effective-ts-item16.md",
+      title:
+        "[Effective TypeScript] Item 16. number 인덱스 시그니처보다는 Array, 튜플, ArrayLike를 사용하기",
+      desc: "자바스크립트에서는 배열도 객체다. 객체의 키는 문자열이다. 타입스크립트에서 배열의 인덱스 시그니처는 number로 제한된다. 하지만 런타임에서는 사라진다.",
+    },
   ],
   "Computer-Science": [],
   React: [
