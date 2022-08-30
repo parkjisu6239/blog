@@ -1,7 +1,14 @@
 /* eslint-disable max-len */
 export const postInfo = {
   All: [],
-  JavaScript: [],
+  JavaScript: [
+    {
+      createdAt: "2022-08-31",
+      fileName: "web-worker.md",
+      title: "[Web Worker] 웹 워커 사용하기",
+      desc: "웹워커는 시간이 오래 걸리는 작업을 메인 스레드가 아닌 별도의 스레드에서 실행할 수 있게 한다. 웹워커의 종류, web worker API, 예시를 알아보자.",
+    },
+  ],
   TypeScript: [],
   Books: [
     {
