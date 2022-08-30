@@ -167,6 +167,13 @@ export const postInfo = {
         "[Effective TypeScript] Item 16. number 인덱스 시그니처보다는 Array, 튜플, ArrayLike를 사용하기",
       desc: "자바스크립트에서는 배열도 객체다. 객체의 키는 문자열이다. 타입스크립트에서 배열의 인덱스 시그니처는 number로 제한된다. 하지만 런타임에서는 사라진다.",
     },
+    {
+      createdAt: "2022-08-30",
+      fileName: "effective-ts-item17.md",
+      title:
+        "[Effective TypeScript] Item 17. 변경 관련된 오류 방지를 위해 readonly 사용하기",
+      desc: "함수 파라미터의 불변성을 보장하기 위해 readonly 를 사용할 수 있다. readonly는 얕게 동작한다.",
+    },
   ],
   "Computer-Science": [],
   React: [
