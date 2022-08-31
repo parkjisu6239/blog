@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/blog/static/css/main.02f38b43.css",
-    "main.js": "/blog/static/js/main.061fdc1a.js",
+    "main.js": "/blog/static/js/main.3bacff4b.js",
     "static/media/apple_158989157.jpg": "/blog/static/media/apple_158989157.e2f1ddc8c6516d67a3e2.jpg",
     "static/media/http-4-2.png": "/blog/static/media/http-4-2.a9a96558ec76f08f5c26.png",
     "static/media/http-4-13.png": "/blog/static/media/http-4-13.0f7474cba3815aaebe96.png",
@@ -54,6 +54,7 @@
     "static/media/effective-ts-item15.md": "/blog/static/media/effective-ts-item15.7734527dda6767c6e463.md",
     "static/media/functional-coding-ch1.md": "/blog/static/media/functional-coding-ch1.cb11edd215ff9e69afb3.md",
     "static/media/effective-ts-item12.md": "/blog/static/media/effective-ts-item12.cfcc236deb6d6113de5c.md",
+    "static/media/web-worker.md": "/blog/static/media/web-worker.534da4c259e5e28618c4.md",
     "static/media/effective-ts-item7.md": "/blog/static/media/effective-ts-item7.23a2d58e465bee78aa7c.md",
     "static/media/effective-ts-item10.md": "/blog/static/media/effective-ts-item10.fab88aed9fe40086ce2e.md",
     "static/media/CompoundComponentDesignPattern.md": "/blog/static/media/CompoundComponentDesignPattern.91a06186f534781dbbab.md",
@@ -65,10 +66,10 @@
     "static/media/effective-ts-item6.md": "/blog/static/media/effective-ts-item6.aebeb4a4584c3ce4e3f8.md",
     "index.html": "/blog/index.html",
     "main.02f38b43.css.map": "/blog/static/css/main.02f38b43.css.map",
-    "main.061fdc1a.js.map": "/blog/static/js/main.061fdc1a.js.map"
+    "main.3bacff4b.js.map": "/blog/static/js/main.3bacff4b.js.map"
   },
   "entrypoints": [
     "static/css/main.02f38b43.css",
-    "static/js/main.061fdc1a.js"
+    "static/js/main.3bacff4b.js"
   ]
 }
