@@ -188,6 +188,13 @@ export const postInfo = {
         "[Effective TypeScript] Item 18. 매핑된 타입을 사용하여 값을 동기화하기",
       desc: "연관된 두 타입의 동기화를 하기 위해 타입을 매핑할 수 있다. 둘중하나가 바뀌면 변경을 쉽게 알아챌수 있다.",
     },
+    {
+      createdAt: "2022-09-06",
+      fileName: "effective-ts-item19.md",
+      title:
+        "[Effective TypeScript] Item 19. 추론 가능한 타입을 사용해 장황한 코드를 방지하기",
+      desc: "타입 체커만으로 충분한 타입들은 타입 명시를 생략할 수 있다. 보다 정확한 타입이 필요한 경우는 여전히 타입을 명시할 수 있다.",
+    },
   ],
   "Computer-Science": [],
   React: [
