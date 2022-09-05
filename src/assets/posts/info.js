@@ -181,6 +181,13 @@ export const postInfo = {
         "[Effective TypeScript] Item 17. 변경 관련된 오류 방지를 위해 readonly 사용하기",
       desc: "함수 파라미터의 불변성을 보장하기 위해 readonly 를 사용할 수 있다. readonly는 얕게 동작한다.",
     },
+    {
+      createdAt: "2022-09-05",
+      fileName: "effective-ts-item18.md",
+      title:
+        "[Effective TypeScript] Item 18. 매핑된 타입을 사용하여 값을 동기화하기",
+      desc: "연관된 두 타입의 동기화를 하기 위해 타입을 매핑할 수 있다. 둘중하나가 바뀌면 변경을 쉽게 알아챌수 있다.",
+    },
   ],
   "Computer-Science": [],
   React: [
