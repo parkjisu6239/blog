@@ -195,6 +195,12 @@ export const postInfo = {
         "[Effective TypeScript] Item 19. 추론 가능한 타입을 사용해 장황한 코드를 방지하기",
       desc: "타입 체커만으로 충분한 타입들은 타입 명시를 생략할 수 있다. 보다 정확한 타입이 필요한 경우는 여전히 타입을 명시할 수 있다.",
     },
+    {
+      createdAt: "2022-09-07",
+      fileName: "effective-ts-item20.md",
+      title: "[Effective TypeScript] Item 20. 다른 타입에는 다른 변수 사용하기",
+      desc: "가독성과 휴먼 에러를 줄이기 위해 같은 이름의 변수를 재사용할 이유는 없다. 타입에서도 마찬가지이다.",
+    },
   ],
   "Computer-Science": [],
   React: [
