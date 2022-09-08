@@ -201,6 +201,12 @@ export const postInfo = {
       title: "[Effective TypeScript] Item 20. 다른 타입에는 다른 변수 사용하기",
       desc: "가독성과 휴먼 에러를 줄이기 위해 같은 이름의 변수를 재사용할 이유는 없다. 타입에서도 마찬가지이다.",
     },
+    {
+      createdAt: "2022-09-08",
+      fileName: "effective-ts-item21.md",
+      title: "[Effective TypeScript] Item 21. 타입 넓히기",
+      desc: "타입스크립트는 타입이 명시되지 않은 변수에 대해 타입넓히기를 한다. 타입 넓히기가 정확하지 않은 경우, 타입넓히기에 제약을 더하기 위한 방법을 알아보자",
+    },
   ],
   "Computer-Science": [],
   React: [
