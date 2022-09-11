@@ -207,6 +207,13 @@ export const postInfo = {
       title: "[Effective TypeScript] Item 21. 타입 넓히기",
       desc: "타입스크립트는 타입이 명시되지 않은 변수에 대해 타입넓히기를 한다. 타입 넓히기가 정확하지 않은 경우, 타입넓히기에 제약을 더하기 위한 방법을 알아보자",
     },
+    {
+      createdAt: "2022-09-11",
+      fileName: "functional-coding-ch6.md",
+      title:
+        "[Functional Coding] Chap6. 변경 가능한 데이터 구조를 가진 언어에서 불변성 유지하기",
+      desc: "카피-온-라이트를 적용하여 불변성을 유지할 수 있다.",
+    },
   ],
   "Computer-Science": [],
   React: [
