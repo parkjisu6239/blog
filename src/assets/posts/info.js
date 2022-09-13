@@ -214,6 +214,13 @@ export const postInfo = {
         "[Functional Coding] Chap6. 변경 가능한 데이터 구조를 가진 언어에서 불변성 유지하기",
       desc: "카피-온-라이트를 적용하여 불변성을 유지할 수 있다.",
     },
+    {
+      createdAt: "2022-09-14",
+      fileName: "functional-coding-ch7.md",
+      title:
+        "[Functional Coding] Chap7. 신뢰할수 없는 코드를 쓰면서 불변성 지키기",
+      desc: "안전지대를 오가는 데이터는 방어적 복사를 적용하여 데이터의 불변성을 유지할 수 있다.",
+    },
   ],
   "Computer-Science": [],
   React: [
