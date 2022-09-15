@@ -221,6 +221,12 @@ export const postInfo = {
         "[Functional Coding] Chap7. 신뢰할수 없는 코드를 쓰면서 불변성 지키기",
       desc: "안전지대를 오가는 데이터는 방어적 복사를 적용하여 데이터의 불변성을 유지할 수 있다.",
     },
+    {
+      createdAt: "2022-09-15",
+      fileName: "effective-ts-item22.md",
+      title: "[Effective TypeScript] Item 21. 타입 좁히기",
+      desc: "타입을 좁히는 다양한 방법을 알아보자. 조건분기, instanceof, 속성 체크, ...",
+    },
   ],
   "Computer-Science": [],
   React: [
