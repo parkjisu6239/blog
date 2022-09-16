@@ -224,8 +224,14 @@ export const postInfo = {
     {
       createdAt: "2022-09-15",
       fileName: "effective-ts-item22.md",
-      title: "[Effective TypeScript] Item 21. 타입 좁히기",
+      title: "[Effective TypeScript] Item 22. 타입 좁히기",
       desc: "타입을 좁히는 다양한 방법을 알아보자. 조건분기, instanceof, 속성 체크, ...",
+    },
+    {
+      createdAt: "2022-09-16",
+      fileName: "effective-ts-item23.md",
+      title: "[Effective TypeScript] Item 23. 한꺼번에 객체 생성하기",
+      desc: "객체는 한번에 만드는 것이 좋다. 속성을 추가하려면 전개식을 사용해서 새로운 객체를 만들 수 있다.",
     },
   ],
   "Computer-Science": [],
