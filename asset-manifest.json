@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/blog/static/css/main.02f38b43.css",
-    "main.js": "/blog/static/js/main.9ff1c085.js",
+    "main.js": "/blog/static/js/main.98b691be.js",
     "static/media/apple_158989157.jpg": "/blog/static/media/apple_158989157.e2f1ddc8c6516d67a3e2.jpg",
     "static/media/http-4-2.png": "/blog/static/media/http-4-2.a9a96558ec76f08f5c26.png",
     "static/media/http-4-13.png": "/blog/static/media/http-4-13.0f7474cba3815aaebe96.png",
@@ -52,6 +52,7 @@
     "static/media/effective-ts-item17.md": "/blog/static/media/effective-ts-item17.a82d568975dd522dd273.md",
     "static/media/clean-code-ch2.md": "/blog/static/media/clean-code-ch2.0a03df4d1b67f931b98a.md",
     "static/media/effective-ts-item19.md": "/blog/static/media/effective-ts-item19.0ee984a4601c9fdb8c90.md",
+    "static/media/effective-ts-item22.md": "/blog/static/media/effective-ts-item22.bc207a535b5b32d154cc.md",
     "static/media/effective-ts-item9.md": "/blog/static/media/effective-ts-item9.bf94d2f5715fcc421ddb.md",
     "static/media/functional-coding-ch2.md": "/blog/static/media/functional-coding-ch2.3ba86dad5eff551619d1.md",
     "static/media/effective-ts-item15.md": "/blog/static/media/effective-ts-item15.7734527dda6767c6e463.md",
@@ -67,15 +68,16 @@
     "static/media/git_command.md": "/blog/static/media/git_command.aa5df0d9e51369abef6d.md",
     "static/media/clean-code-ch1.md": "/blog/static/media/clean-code-ch1.7fcf0a4e5a711005b005.md",
     "static/media/effective-ts-item20.md": "/blog/static/media/effective-ts-item20.90c25496a932ae3063a8.md",
+    "static/media/effective-ts-item23.md": "/blog/static/media/effective-ts-item23.cb1870d5077e47fb4dc8.md",
     "static/media/regex.md": "/blog/static/media/regex.d194ee7e269845cae68f.md",
     "static/media/effective-ts-item6.md": "/blog/static/media/effective-ts-item6.aebeb4a4584c3ce4e3f8.md",
     "index.html": "/blog/index.html",
     "static/media/effective-ts-item18.md": "/blog/static/media/effective-ts-item18.c8e142b46c16f99f9d82.md",
     "main.02f38b43.css.map": "/blog/static/css/main.02f38b43.css.map",
-    "main.9ff1c085.js.map": "/blog/static/js/main.9ff1c085.js.map"
+    "main.98b691be.js.map": "/blog/static/js/main.98b691be.js.map"
   },
   "entrypoints": [
     "static/css/main.02f38b43.css",
-    "static/js/main.9ff1c085.js"
+    "static/js/main.98b691be.js"
   ]
 }
