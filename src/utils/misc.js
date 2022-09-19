@@ -32,3 +32,26 @@ export const setMetaTags = ({
     .querySelector("meta[property=\"og:url\"]")
     .setAttribute("content", window.location.href);
 };
+
+export const getAllPost = () => {
+  return Object.keys(postInfo)
+    .map((categoryKey) =>
+      postInfo[categoryKey].map((post) => {
+        return {
+          category: categoryKey,
+          ...post,
+        };
+      })
+    )
+    .reduce((prev, cur) => [...prev, ...cur], []);
+}
+
+const plattenText = (text) => {
+  return text.toUpperCase().replaceAll(" ", "")
+}
+
+export const isTextIncludes = (_pattern, _target) => {
+  const pattern = plattenText(_pattern)
+  const target = plattenText(_target)
+  return target.includes(pattern)
+}

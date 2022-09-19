@@ -1,15 +1,17 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { css } from "@emotion/css";
 import Pagination from "@mui/material/Pagination";
 
 import { postInfo } from "assets/posts/info";
+import { getAllPost, isTextIncludes } from "utils/misc";
 import { basicColor } from "styles/color";
 import { mobile } from "styles/view";
 
 import Empty from "components/atoms/Empty";
 import MarkDown from "components/atoms/Markdown";
-import PostThumbnail from "./PostThumbnail";
+import PostSearch from "components/molecules/PostSearch";
+import PostThumbnail from "../../molecules/PostThumbnail";
 
 const categoryCss = css`
   display: flex;
@@ -58,58 +60,77 @@ const postListCss = css`
   width: 100%;
 `;
 
+const pagePerPost = 5;
+
 const Category = () => {
   const { category } = useParams();
-  let pagePerPost = 5;
-  let posts = postInfo[category].reverse();
+  const [rawPostList, setRawPostList] = useState([]);
+  const [postList, setPostList] = useState([]);
   const [page, setPage] = useState(1);
-  let mdPath;
-
-  if (posts == null) {
-    return <Empty />;
-  }
+  const [readme, setReadme] = useState(null);
+  const [searchValue, setSearchValue] = useState("");
 
   const changePage = (event, nextPage) => {
     setPage(nextPage);
   };
 
-  try {
-    if (category === "All") {
-      posts = Object.keys(postInfo)
-        .map((categoryKey) =>
-          postInfo[categoryKey].map((post) => {
-            return {
-              category: categoryKey,
-              ...post,
-            };
-          })
-        )
-        .reduce((prev, cur) => [...prev, ...cur], []);
-      pagePerPost = 7;
-    } else {
-      mdPath = require(`assets/posts/${category}/README.md`);
-    }
-    posts.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
-  } catch {
-    return <Empty />;
-  }
+  const searchPost = (event) => {
+    event.preventDefault();
+    setPostList(
+      rawPostList.filter((post) => isTextIncludes(searchValue, post.title))
+    );
+    setPage(1);
+  };
 
-  if (posts.length === 0) {
+  const resetSearchValue = () => {
+    setSearchValue("");
+    setPostList(rawPostList);
+    setPage(1);
+  };
+
+  useEffect(() => {
+    try {
+      let posts;
+      if (category === "All") {
+        posts = getAllPost();
+        setReadme(null);
+      } else {
+        posts = postInfo[category].reverse();
+        setReadme(require(`assets/posts/${category}/README.md`));
+      }
+      posts.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+      setRawPostList(posts);
+    } catch {
+      setRawPostList(null);
+    }
+  }, [category]);
+
+  useEffect(() => {
+    setPostList(rawPostList);
+  }, [rawPostList]);
+
+  if (!postList) {
     return <Empty />;
   }
 
   return (
     <article className={categoryCss}>
       <h1 className={titleCss}>{category.replace("-", " ")}</h1>
-      {mdPath && (
+      <PostSearch
+        onSubmit={searchPost}
+        value={searchValue}
+        onChange={(e) => setSearchValue(e.target.value)}
+        reset={resetSearchValue}
+      />
+      {readme && (
         <section className={categoryDecsCss}>
-          <MarkDown mdPath={mdPath} />
+          <MarkDown mdPath={readme} />
         </section>
       )}
       <section className={postListWrapperCss}>
-        <span className={postCountCss}>{posts.length} posts</span>
+        <span className={postCountCss}>{postList.length} posts</span>
         <div className={postListCss}>
-          {posts
+          {postList
             .slice((page - 1) * pagePerPost, page * pagePerPost)
             .map((post, idx) => {
               return (
@@ -121,9 +142,8 @@ const Category = () => {
               );
             })}
         </div>
-        {}
         <Pagination
-          count={Math.ceil(posts.length / pagePerPost)}
+          count={Math.ceil(postList.length / pagePerPost)}
           page={page}
           onChange={changePage}
           shape="rounded"

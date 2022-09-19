@@ -25,7 +25,7 @@ const thumbnailCss = css`
 const headerCss = css`
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   gap: 10px;
   h2 {
     font-size: large;
@@ -33,6 +33,11 @@ const headerCss = css`
     text-decoration: none;
     font-weight: bold;
   }
+  span {
+    white-space: nowrap;
+    margin-top: 2px;
+  }
+
   ${mobile} {
     flex-direction: column;
     align-items: flex-start;
