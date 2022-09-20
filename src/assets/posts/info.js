@@ -233,6 +233,12 @@ export const postInfo = {
       title: "[Effective TypeScript] Item 23. 한꺼번에 객체 생성하기",
       desc: "객체는 한번에 만드는 것이 좋다. 속성을 추가하려면 전개식을 사용해서 새로운 객체를 만들 수 있다.",
     },
+    {
+      createdAt: "2022-09-20",
+      fileName: "effective-ts-item24.md",
+      title: "[Effective TypeScript] Item 24. 일관성있는 별칭 사용하기",
+      desc: "별칭보다는 비구조화를 사용하는 것이 좋다.",
+    },
   ],
   "Computer-Science": [],
   React: [
