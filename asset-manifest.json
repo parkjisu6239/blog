@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/blog/static/css/main.02f38b43.css",
-    "main.js": "/blog/static/js/main.f0db4d20.js",
+    "main.js": "/blog/static/js/main.6a514191.js",
     "static/media/apple_158989157.jpg": "/blog/static/media/apple_158989157.e2f1ddc8c6516d67a3e2.jpg",
     "static/media/http-4-2.png": "/blog/static/media/http-4-2.a9a96558ec76f08f5c26.png",
     "static/media/http-4-13.png": "/blog/static/media/http-4-13.0f7474cba3815aaebe96.png",
@@ -65,6 +65,7 @@
     "static/media/CompoundComponentDesignPattern.md": "/blog/static/media/CompoundComponentDesignPattern.91a06186f534781dbbab.md",
     "static/media/effective-ts-item16.md": "/blog/static/media/effective-ts-item16.8da1f3bb281ce377a86d.md",
     "static/media/README.md": "/blog/static/media/README.d75f08f58de990917443.md",
+    "static/media/effective-ts-item24.md": "/blog/static/media/effective-ts-item24.3aeff20e4d84a1d3e7f0.md",
     "static/media/git_command.md": "/blog/static/media/git_command.aa5df0d9e51369abef6d.md",
     "static/media/clean-code-ch1.md": "/blog/static/media/clean-code-ch1.7fcf0a4e5a711005b005.md",
     "static/media/effective-ts-item20.md": "/blog/static/media/effective-ts-item20.90c25496a932ae3063a8.md",
@@ -74,10 +75,10 @@
     "index.html": "/blog/index.html",
     "static/media/effective-ts-item18.md": "/blog/static/media/effective-ts-item18.c8e142b46c16f99f9d82.md",
     "main.02f38b43.css.map": "/blog/static/css/main.02f38b43.css.map",
-    "main.f0db4d20.js.map": "/blog/static/js/main.f0db4d20.js.map"
+    "main.6a514191.js.map": "/blog/static/js/main.6a514191.js.map"
   },
   "entrypoints": [
     "static/css/main.02f38b43.css",
-    "static/js/main.f0db4d20.js"
+    "static/js/main.6a514191.js"
   ]
 }
