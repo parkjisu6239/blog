@@ -1,6 +1,6 @@
 # github Blog
 
-test
+test2
 
 ## Command
 
