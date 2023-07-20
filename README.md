@@ -1,4 +1,7 @@
 # github Blog
+
+test
+
 ## Command
 
 ### Run
@@ -14,25 +17,32 @@ npm start
 ```
 npm run deploy
 ```
+
 github.io 에 배포합니다. `package.json`의 `homepage`와 github repo name을 동일하게 설정해야 합니다.
 
 ## How to Post
 
 1. `src/assets/posts` 에 폴더 또는 파일을 생성합니다.
-  - 파일은 반드시 markdown 형식이어야 합니다.
-  - 파일, 폴더 명의 띄어쓰기 없이 작성해야 합니다. 띄어쓰기 대신 `-` 를 사용할 수 있습니다.
-  - 폴더를 생성한 경우, 폴더 안에 `README.md` 를 생성합니다. 여기엔 해당 폴더의 간단한 설명을 작성할 수 있습니다.
+
+- 파일은 반드시 markdown 형식이어야 합니다.
+- 파일, 폴더 명의 띄어쓰기 없이 작성해야 합니다. 띄어쓰기 대신 `-` 를 사용할 수 있습니다.
+- 폴더를 생성한 경우, 폴더 안에 `README.md` 를 생성합니다. 여기엔 해당 폴더의 간단한 설명을 작성할 수 있습니다.
+
 2. `src/assets/posts/info.js` 에 내용을 추가합니다.
-  - 폴더를 추가한 경우, `postInfo`의 `key`를 생성한 폴더명과 동일하게 추가합니다.
-  - 폴더(key)의 `value` 는 post List 로 파일 설명을 추가합니다.
-  - 예시를 보고 동일한 규칙으로 생성합니다.
+
+- 폴더를 추가한 경우, `postInfo`의 `key`를 생성한 폴더명과 동일하게 추가합니다.
+- 폴더(key)의 `value` 는 post List 로 파일 설명을 추가합니다.
+- 예시를 보고 동일한 규칙으로 생성합니다.
+
 3. `npm run deploy` 로 배포합니다.
 
 ## eslint
+
 - `npm i eslint` 로 eslint 설치
 - `npx eslint --init` 으로 eslint.json 생성
 - pakage.json의 devDependence 참고하여 플러그인 추가 설치
 - vscode setting > code action on save > Edit in setting.json 에 아래 설정 추가
+
 ```json
 "editor.codeActionsOnSave": {
     "source.fixAll": true,
@@ -41,10 +51,12 @@ github.io 에 배포합니다. `package.json`의 `homepage`와 github repo name�
 ```
 
 ## 참고한 글
+
 - [Adding dynamic meta tags to a React app without SSR
-](https://blog.logrocket.com/adding-dynamic-meta-tags-react-app-without-ssr/)
+  ](https://blog.logrocket.com/adding-dynamic-meta-tags-react-app-without-ssr/)
 - [react router를 사용하여 SPA로 Github page에 배포하기 위한 방법](https://github.com/rafgraph/spa-github-pages)
   - github page 는 SPA를 지원하지 않아서, 배포된 사이트의 서브 url로 접속하면 404 페이지가 나오는데, 이를 해결하기 위한 일종의 트릭
 
 ## todo
+
 - toc 지원
