@@ -1,4 +1,4 @@
-name: Pick Random Reviwer
+name: "Pick Random Reviwer"
 on:
     pull_request:
         branches:
